@@ -1,0 +1,131 @@
+<html>
+
+   <head>
+   <style>
+body {
+background-image: url('gif1.gif');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+@font-face {
+  font-family: text;
+  src: url(PixelitoCM.ttf);
+}
+
+.floor{
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 68.2%;
+    left: 36.6%;
+
+}
+
+.door{
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 38%;
+    left: 80%;
+
+}
+
+.drawer{
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50.6%;
+    left: 66.4%;
+
+}
+
+.stair{
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 93.4%;
+    left: 2.1%;
+
+}
+
+.next{
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 95.3%;
+    left: 94.3%;
+
+}
+
+h2{
+  font-family: text;
+  font-style: normal;
+  font-size: 18px;
+  color: #BA55D3;
+}
+
+a:link, a:visited, a:active{
+  font-family: text;
+  font-style: normal;
+  font-size: 18px;
+  color: #BA55D3;
+  text-decoration: none;
+}
+
+a:visited
+  font-family: text;
+  font-style: normal;
+  font-size: 18px;
+  color: #8B008B;
+  text-decoration: none;
+
+}
+
+</style>
+   </head>
+
+   <body>
+     <div class="floor">
+       <h2 id="floor"> floor </h2>
+     </div>
+     <div class="door">
+       <h2 id="door"> door </h2>
+      </div>
+     <div class="drawer">
+       <h2 id="drawer"> drawer </h2>
+   </div>
+     <div class="stair">
+      <h2 id="stair"> stairs </h2>
+       </div>
+     <div class="next">
+        <a href="url"> next room </a>
+       </div>
+       <script>
+       document.getElementById("floor").onclick = function() {floor()};
+       function floor() {
+       alert("These links will lead to notes that guide the viewer on how to most efficiently rob the place. There will be embedded links to webpages of other rooms.");
+       }
+       document.getElementById("door").onclick = function() {door()};
+       function door() {
+       alert("This is based on the time my house was robbed lol");
+       }
+       document.getElementById("drawer").onclick = function() {drawer()};
+       function drawer() {
+       alert("I plan to explore the feeling of hostility in a place that was once familiar. The feeling of displacement.");
+       }
+       document.getElementById("stair").onclick = function() {stair()};
+       function stair() {
+       alert("'Break-in' critiques our 'over-sharing culture' vs. survelliance, questioning why we have a problem with one and not the other. It aims to make the viewer question the limits of their percieved control over what they reveal to the world. As an extension, I might critique that need to click on/view something even when  it's immoral due to the temptation of the button...dunno what that's called but yeah");
+       }
+
+       </script>
+   </body>
+
+</html>
