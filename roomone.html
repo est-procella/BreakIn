@@ -22,6 +22,16 @@ position: absolute;
   src: url(PixelitoCM.ttf);
 }
 
+.return{
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 250%;
+    left: 50%;
+transform: translateX(-50%);
+}      
+      
 .floor{
 
     margin: 0;
@@ -115,6 +125,7 @@ a:visited
      <div class="next">
         <a href="url"> next room </a>
        </div>
+       <h2 id="return"> congratulations! you can now mute the audio! now be a good intruder and scroll back up. there's nothing else for you. </h2>
        <script>
        document.getElementById("floor").onclick = function() {floor()};
        function floor() {
